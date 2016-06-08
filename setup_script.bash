@@ -16,5 +16,9 @@ ln -s ${PWD}/bashrc ~/.bashrc
 mkdir -p ~/.config
 ln -s ${PWD}/clang-format.py ~/.config/clang-format.py
 
+
+ln -s ${PWD}/gitconfig ~/.gitconfig
+ln -s ${PWD}/hgrc ~/.hgrc
+
 # Only for xmonad setup
 # ln -s ${PWD}/xmonad.hs ~/.xmonad/xmonad.hs
