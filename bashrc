@@ -120,11 +120,27 @@ fi
 export CC=clang
 export CXX=clang++
 
+export CLANG_REFLECT=~/code/refl-llvm-install/bin/clang++
+
 # For ROS development
 alias kinetic='. /opt/ros/kinetic/setup.bash'
+
+#export ROS_MASTER_URI="http://192.168.0.2:11311"
+#export ROS_HOSTNAME=192.168.0.176
+
 export ROS_MASTER_URI="http://localhost:11311"
 
 # For ROS 2 development
 export ROS_DOMAIN_ID=76
 
 alias rustinstall='export PATH=$PATH:/home/jackie/.cargo/bin'
+
+alias recordmywindow='window_id=`xwininfo | grep "Window id" | sed -e "s@.*Window id: \([0-9a-fA-Fx]*\).*@\1@"`; recordmydesktop --windowid $window_id --no-sound'
+
+#alias clang-4.0=~/code/llvm/build/bin/clang-4.0
+export LD_LIBRARY_PATH=/usr/local/lib/lib64:/usr/local/lib64:/usr/local/cuda-8.0/lib64:/home/jackie/code/cuda/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-8.0/bin:/home/jackie/code/bbin/bin:$PATH
+export OPENOCD_HOME=/home/jackie/code/openocd-code
+
+export BOOST_ROOT=/home/jackie/code/boost
+export BOOST_BUILD_PATH=/home/jackie/code/boost-build
