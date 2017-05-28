@@ -1,0 +1,33 @@
+URxvt*background: #222827
+URxvt*foreground: #E6EBE5
+
+!black
+URxvt*color0:  #222827
+URxvt*color8:  #5D6F74
+!red
+URxvt*color1:  #C588D8
+URxvt*color9:  #BC5E8A
+!green
+URxvt*color2:  #9C75DD
+URxvt*color10: #63B0B0
+!yellow
+URxvt*color3:  #9898AE
+URxvt*color11: #C0C0DD
+!blue
+URxvt*color4:  #654A96
+URxvt*color12: #5786BC
+!magenta
+URxvt*color5:  #625566
+URxvt*color13: #3F3442
+!cyan
+URxvt*color6:  #A9D1DF
+URxvt*color14: #849DA2
+
+!white
+URxvt*color7:  #E6EBE5
+URxvt*color15: #D9D6CF
+
+*font: xft:hack:size=10
+*boldFont: xft:hack:size=10
+*boldItalicFont: xft:hack:size=10
+*italicFont: xft:hack:size=10
